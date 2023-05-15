@@ -105,10 +105,13 @@ p {
 .call-link {
   &:focus {
     .call-icon {
-      left: calc(100% - 122px);
+      left: calc(100% - 90px);
+      @media only screen and (min-width: 768px) {
+        left: calc(100% - 122px);
+      }
     }
     span {
-      @apply opacity-0;
+      @apply invisible;
     }
   }
 }
