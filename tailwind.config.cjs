@@ -16,7 +16,7 @@ module.exports = {
         gray: {
           "system-1": "#d7d7d7",
           "system-2": "#636366",
-          "system-3": "#48484A",
+          "system-3": "#e7e7e7",
           "system-4": "#3A3A3C",
           "system-5": "#2C2C2E",
           "system-6": "#1C1C1E",

@@ -101,3 +101,14 @@ p {
   max-width: 1024px;
   @apply h-full;
 }
+
+.call-link {
+  &:focus {
+    .call-icon {
+      left: calc(100% - 122px);
+    }
+    span {
+      @apply opacity-0;
+    }
+  }
+}

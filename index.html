@@ -14,7 +14,7 @@
   </head>
   <body class="bg-gray-system-1">
     <div
-      class="preloader bg-black fixed top-0 left-0 w-screen h-screen grid place-content-center transition-opacity duration-1000 opacity-100"
+      class="preloader bg-black fixed z-10 top-0 left-0 w-screen h-screen grid place-content-center transition-opacity duration-1000 opacity-100"
     >
       <img src="./src/assets/logo.svg" alt="Preloader Image" />
     </div>
@@ -29,7 +29,17 @@
         </p>
 
         <h2 class="font-semibold mb-10 text-3xl lg:text-4xl">POZOVITE:</h2>
-        <a href="tel:+381654449999">065 444 9999</a>
+        <a
+          class="call-link relative bg-gray-system-3 h-32 pl-[122px] rounded-full flex mx-auto text-2xl lg:text-3xl font-semibold w-3/4 md:w-1/2 items-center justify-center"
+          href="tel:+381654449999"
+        >
+          <div
+            class="call-icon bg-white w-[116px] h-[116px] rounded-full left-1.5 top-1.5 transition-all duration-300 absolute grid place-content-center"
+          >
+            <img src="./src/assets/call.svg" alt="Call Icon" />
+          </div>
+          <span class="duration-150">065 444 9999</span>
+        </a>
       </section>
       <section class="lg:py-20 py-10">
         <h2 class="font-semibold text-center lg:text-left mb-10 text-3xl lg:text-4xl">OTKUPLJUJEMO:</h2>
